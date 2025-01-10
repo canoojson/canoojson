@@ -22,13 +22,7 @@
   - **Scout Group Website:** Modern design with a dynamic contact form.
     
   ### Connect with Me
-  <a href="https://www.instagram.com/canoo.json" rel="external" target="_blank">
-    <img src="social.png" width="50" height="50" title="Instagram" alt="Instagram icon"/>
-  </a>
-  
-  <a href="https://www.instagram.com/canoo.json" rel="external" target="_blank">
-    <img src="social.png" width="50" height="50" title="Instagram" alt="Instagram icon"/>
-  </a>
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sergio-cano-pomer-a51440259/)
   [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/canoo.json)
   ### Currently Listening To
 
