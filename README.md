@@ -70,7 +70,7 @@
   </a>
   <!-- FlexyGo -->
   <a href="https://www.flexygo.com/" title="FlexyGo" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.flexygo.com/wp-content/themes/flexygo/assets/images/logo.svg" alt="FlexyGo" style="width: 32px; height: 32px;" />
+    <img src="https://www.flexygo.com/wp-content/uploads/2022/09/flexygo_logo.webp" alt="FlexyGo" style="width: 32px; height: 32px;" />
   </a>
 </p>
 
