@@ -23,42 +23,41 @@
 <h2>⚒️ Tech Stack</h2>
 
 <p align="center">
-  <a href="https://kotlinlang.org/" title="Kotlin">
+  <a href="https://kotlinlang.org/" title="Kotlin" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" />
-  </a>
 </a>
-<a href="https://www.java.com/" title="Java">
+<a href="https://www.java.com/" title="Java" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=java" alt="Java" />
 </a>
-<a href="https://www.python.org/" title="Python">
+<a href="https://www.python.org/" title="Python" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=python" alt="Python" />
 </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
 </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
 </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
 </a>
-<a href="https://www.mysql.com/" title="MySQL">
+<a href="https://www.mysql.com/" title="MySQL" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
 </a>
-<a href="https://www.sqlite.org/index.html" title="SQLite">
+<a href="https://www.sqlite.org/index.html" title="SQLite" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" />
 </a>
-<a href="https://spring.io/" title="Spring Framework">
+<a href="https://spring.io/" title="Spring Framework" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=spring" alt="Spring" />
 </a>
-<a href="https://developer.android.com/studio" title="Android Studio">
+<a href="https://developer.android.com/studio" title="Android Studio" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" />
 </a>
-<a href="https://git-scm.com/" title="Git Version Control">
+<a href="https://git-scm.com/" title="Git Version Control" target="_blank" rel="noopener noreferrer">
   <img src="https://skillicons.dev/icons?i=git" alt="Git" />
 </a>
 <!-- T-SQL / SQL Server -->
-<a href="https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transact-sql-language-elements" title="T-SQL (Microsoft SQL Server)">
+<a href="https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transact-sql-language-elements" title="T-SQL (Microsoft SQL Server)" target="_blank" rel="noopener noreferrer">
   <img src="https://img.icons8.com/color/48/microsoft-sql-server.png" alt="T-SQL (SQL Server)" />
 </a>
 </p>
