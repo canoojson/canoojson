@@ -4,7 +4,7 @@
 <p align="center">
   <i>Developer in progress · Android lover · Tech enthusiast</i><br>
   <b>Crafting mobile apps & web experiences while learning something new every day</b>
-  <span style="font-size: 1.1em;">💼 Currently working at <a href="https://www.ahora.es/" target="_blank" rel="noopener noreferrer"><strong>AHORA</strong></a>, a leading Spanish company specializing in ERP and business management software solutions. With over 30 years of experience, AHORA offers comprehensive solutions for businesses of all sizes, including AHORA 5 for large enterprises, AHORA Express for SMEs, and AHORA One for freelancers and micro-enterprises. Their modular approach allows for tailored solutions across various sectors such as logistics, maintenance, retail, and more.</span>
+  <p style="font-size: 1.1em;">💼 Currently working at <a href="https://www.ahora.es/" target="_blank" rel="noopener noreferrer"><strong>AHORA</strong></a>, a leading Spanish company specializing in ERP and business management software solutions. With over 30 years of experience, AHORA offers comprehensive solutions for businesses of all sizes, including AHORA 5 for large enterprises, AHORA Express for SMEs, and AHORA One for freelancers and micro-enterprises. Their modular approach allows for tailored solutions across various sectors such as logistics, maintenance, retail, and more.</p>
 </p>
 </p>
 
