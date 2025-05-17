@@ -24,6 +24,7 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kotlin,java,python,html,css,js,mysql,sqlite,spring,androidstudio,git" />
+  <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" title="T-SQL (SQL Server)" />
 </p>
 
 ---
@@ -32,13 +33,13 @@
 
 <div align="center">
 
-<a href="#"><img width="400" alt="ReparaTIC Banner" src="https://user-images.githubusercontent.com/0000000/repairapp-banner.png"/></a>  
+<a href="#"></a>  
 <b>ReparaTIC</b><br>
 <sub>An Android app for managing IT incidents in schools, powered by Kotlin & Spring Boot</sub>
 
 <br><br>
 
-<a href="#"><img width="400" alt="Scout Website" src="https://user-images.githubusercontent.com/0000000/scoutsite-banner.png"/></a>  
+<a href="#"></a>  
 <b>Scout Group Website</b><br>
 <sub>Experimental website built as I learn web development step by step</sub>
 
