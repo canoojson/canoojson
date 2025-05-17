@@ -4,9 +4,9 @@
 <p align="center">
   <i>Developer in progress · Android lover · Tech enthusiast</i><br>
   <b>Crafting mobile apps & web experiences while learning something new every day</b>
-  <p style="font-size: 1.1em;">💼 Currently working at <a href="https://www.ahora.es/" target="_blank" rel="noopener noreferrer">
+  <b style="font-size: 1.1em;">💼 Currently working at <a href="https://www.ahora.es/" target="_blank" rel="noopener noreferrer">
     <img src="https://www.ahora.es/favicon.ico" alt="AHORA logo" style="vertical-align: middle; width: 20px; height: 20px; margin-right: 5px;" />
-    <strong>AHORA</strong></a>, a leading Spanish company specializing in ERP and business management software solutions.</p>
+    <strong>AHORA</strong></a>, a leading Spanish company specializing in ERP and business management software solutions.</b>
 </p>
 </p>
 
