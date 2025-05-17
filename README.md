@@ -15,11 +15,12 @@
   ### Technologies and Tools
   - **Programming Languages:** Kotlin, Java, Python, SQL.
   - **Development Tools:** Jetpack Compose, Android Studio, IntelliJ IDEA.
-  - **Databases:** MySQL, SQLite, MongoDB.
+  - **Databases:** MySQL, SQLite, MongoDB, TSQL.
   - **Version Control:** Git.
 
   ### Featured Projects
-  - **Scout Group Website:** Modern design with a dynamic contact form.
+  - **Scout Group Website:** It's an experimental website for my Scout group, created as I learn web development step by step.
+  - **ReparaTIC:** ReparaTIC is an Android app for managing IT incidents in educational environments, connected to a Spring Boot backend.
     
   ### Connect with Me
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sergio-cano-pomer-a51440259/)
