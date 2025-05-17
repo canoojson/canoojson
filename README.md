@@ -23,8 +23,43 @@
 <h2>⚒️ Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,java,python,html,css,js,mysql,sqlite,spring,androidstudio,git" />
-  <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" title="T-SQL (SQL Server)" />
+  <a href="https://kotlinlang.org/" title="Kotlin">
+  <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" />
+</a>
+<a href="https://www.java.com/" title="Java">
+  <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+</a>
+<a href="https://www.python.org/" title="Python">
+  <img src="https://skillicons.dev/icons?i=python" alt="Python" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+  <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
+</a>
+<a href="https://www.mysql.com/" title="MySQL">
+  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
+</a>
+<a href="https://www.sqlite.org/index.html" title="SQLite">
+  <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" />
+</a>
+<a href="https://spring.io/" title="Spring Framework">
+  <img src="https://skillicons.dev/icons?i=spring" alt="Spring" />
+</a>
+<a href="https://developer.android.com/studio" title="Android Studio">
+  <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" />
+</a>
+<a href="https://git-scm.com/" title="Git Version Control">
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+</a>
+<!-- T-SQL / SQL Server -->
+<a href="https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transact-sql-language-elements" title="T-SQL (Microsoft SQL Server)">
+  <img src="https://img.icons8.com/color/48/microsoft-sql-server.png" alt="T-SQL (SQL Server)" />
+</a>
 </p>
 
 ---
