@@ -25,6 +25,7 @@
 <p align="center">
   <a href="https://kotlinlang.org/" title="Kotlin">
   <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" />
+  </a>
 </a>
 <a href="https://www.java.com/" title="Java">
   <img src="https://skillicons.dev/icons?i=java" alt="Java" />
