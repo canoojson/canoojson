@@ -6,7 +6,8 @@
   <b>Crafting mobile apps & web experiences while learning something new every day</b>
   <p style="font-size: 1.1em;">💼 Currently working at <a href="https://www.ahora.es/" target="_blank" rel="noopener noreferrer">
     <img src="https://www.ahora.es/favicon.ico" alt="AHORA logo" style="vertical-align: middle; width: 20px; height: 20px; margin-right: 5px;" />
-    <strong>AHORA</strong></a>, a leading Spanish company specializing in ERP and business management software solutions.</p>
+    <strong>AHORA</strong></a>, a leading Spanish company specializing in ERP and business management software solutions.
+  </p>
 </p>
 </p>
 
@@ -14,13 +15,13 @@
 
 <h2>📱 About Me</h2>
 
-<ul>
+<ol>
   <li>🎓 Student of <b>Higher Degree in Multiplatform App Development</b></li>
   <li>💻 Learning and building with <b>Kotlin + Jetpack Compose</b></li>
   <li>🔄 Backend experience with <b>Spring Boot</b> and <b>REST APIs</b></li>
   <li>🏕️ Experimental <b>web developer for my Scout group</b></li>
   <li>🤝 Passionate about teamwork, UI/UX design and agile development</li>
-</ul>
+</ol>
 
 ---
 
