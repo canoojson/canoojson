@@ -15,7 +15,7 @@
 
 <h2>📱 About Me</h2>
 
-<ol>
+<ul>
   <li>🎓 Student of <b>Higher Degree in Multiplatform App Development</b></li>
   <li>💻 Learning and building with <b>Kotlin + Jetpack Compose</b></li>
   <li>🔄 Backend experience with <b>Spring Boot</b> and <b>REST APIs</b></li>
