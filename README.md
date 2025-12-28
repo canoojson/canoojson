@@ -15,7 +15,7 @@
 <h2>📱 About Me</h2>
 
 <ul>
-  <li>🎓 Student of <b>Higher Degree in Multiplatform App Development</b></li>
+  <li>🎓 Graduated with a <b>Higher Degree in Multiplatform App Development</b></li>
   <li>💻 Learning and building with <b>Kotlin + Jetpack Compose</b></li>
   <li>🔄 Backend experience with <b>Spring Boot</b> and <b>REST APIs</b></li>
   <li>🏕️ Experimental <b>web developer for my Scout group</b></li>
