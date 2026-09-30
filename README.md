@@ -107,7 +107,9 @@
 <h2>🎧 Now Playing on Spotify</h2>
 
 <p align="center">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=pfslrwk40cy20135neoakdz5v&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=true&bar_color=1DB954&bar_color_cover=true" />
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=pfslrwk40cy20135neoakdz5v&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=pfslrwk40cy20135neoakdz5v&cover_image=true&theme=apple&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false&mode=dark">
+  </a>
 </p>
 
 ---
