@@ -20,38 +20,28 @@
   <a href="https://www.malt.es/profile/canoojson"><img src="https://img.shields.io/badge/Malt-ff2a4d?style=for-the-badge&labelColor=0d0207" alt="Malt" /></a>
 </p>
 
-## 🌆 Sobre mí
-
-- 💼 Trabajo como desarrollador en **[AHORA](https://www.ahora.es/)**.
-- 🎓 Titulado en **Desarrollo de Aplicaciones Multiplataforma** (DAM).
-- 📱 Me gusta el desarrollo **Android** con Kotlin + Jetpack Compose, y el backend con **Spring Boot**.
-- 🛠️ En mi tiempo libre me hago herramientas para el día a día, como un asistente de voz o la integración de los AirPods en Linux.
-- 🏕️ Hago de desarrollador web para mi grupo scout, **Impeesa 243** de Burjassot.
-
-## ⚒️ Con qué trabajo
+<img src="./assets/h-about.svg?v=1" alt="Sobre mí" width="100%" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,java,cs,py,ts,js,react,html,css,spring,androidstudio,mysql,sqlite,cloudflare,git,bash,linux,arch&perline=9&theme=dark" alt="Lenguajes y herramientas" />
+  <img src="./assets/about.svg?v=1" alt="Sobre mí" width="100%" />
 </p>
+
+<img src="./assets/h-stack.svg?v=1" alt="Con qué trabajo" width="100%" />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SQL_Server-T--SQL-ff2a4d?style=flat-square&labelColor=0d0207" alt="SQL Server · T-SQL" />
-  <img src="https://img.shields.io/badge/DevExpress-ff2a4d?style=flat-square&labelColor=0d0207" alt="DevExpress" />
-  <img src="https://img.shields.io/badge/Crystal_Reports-ff2a4d?style=flat-square&labelColor=0d0207" alt="Crystal Reports" />
-  <img src="https://img.shields.io/badge/Qlik_Sense-ff2a4d?style=flat-square&labelColor=0d0207" alt="Qlik Sense" />
-  <img src="https://img.shields.io/badge/FlexyGo-ff2a4d?style=flat-square&labelColor=0d0207" alt="FlexyGo" />
+  <img src="./assets/stack.svg?v=1" alt="Stack" width="100%" />
 </p>
 
-## 🚀 Proyectos destacados
+<img src="./assets/h-projects.svg?v=1" alt="Proyectos destacados" width="100%" />
 
-| | |
-|---|---|
-| 🎧 **[AirPods en Linux](https://github.com/canoojson/airpodsPopUpOnArchLinux)** | Batería de los AirPods (también con la caja cerrada) y popup estilo iOS al abrir la caja. BLE + BlueZ + Noctalia. |
-| 💸 **[Finanzas](https://github.com/canoojson/finanzas)** | PWA de finanzas personales autoalojada en Cloudflare Workers + D1. |
-| 🌐 **[Portfolio](https://github.com/canoojson/canoojson.github.io)** | Mi web personal en React + Vite: [canoojson.dev](https://canoojson.dev). |
-| 🏕️ **[Web Scouts](https://github.com/canoojson/Web-Scouts)** | La web del grupo scout Impeesa 243 de Burjassot. |
+<p align="center">
+  <a href="https://github.com/canoojson/airpodsPopUpOnArchLinux"><img src="./assets/p-airpods.svg?v=1" alt="airpods" width="49%" /></a>
+  <a href="https://github.com/canoojson/finanzas"><img src="./assets/p-finanzas.svg?v=1" alt="finanzas" width="49%" /></a>
+  <a href="https://canoojson.dev"><img src="./assets/p-portfolio.svg?v=1" alt="portfolio" width="49%" /></a>
+  <a href="https://github.com/canoojson/Web-Scouts"><img src="./assets/p-scouts.svg?v=1" alt="scouts" width="49%" /></a>
+</p>
 
-## 🎧 Qué estoy escuchando
+<img src="./assets/h-music.svg?v=1" alt="Qué estoy escuchando" width="100%" />
 
 <p align="center">
   <a href="https://music.canoojson.dev/now-playing/open">
@@ -67,7 +57,7 @@
   <img src="https://img.shields.io/badge/Desakato-ff2a4d?style=flat-square&logo=spotify&logoColor=white&labelColor=0d0207" alt="Desakato" />
 </p>
 
-## 🎮 A qué juego
+<img src="./assets/h-games.svg?v=1" alt="A qué juego" width="100%" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/PC-Steam-ff2a4d?style=for-the-badge&logo=steam&logoColor=white&labelColor=0d0207" alt="PC" />
@@ -85,11 +75,10 @@
 </p>
 
 <p align="center">
-  <sub>🚚 En Euro Truck Simulator 2 conduzco con volante G920 y una button box que me hice para el móvil.</sub><br />
   <a href="https://steamcommunity.com/id/EvilStorms/"><img src="https://img.shields.io/badge/Mi_perfil_de_Steam-ff2a4d?style=flat-square&logo=steam&logoColor=white&labelColor=0d0207" alt="Perfil de Steam" /></a>
 </p>
 
-## 🌌 Mundos de los que soy fan
+<img src="./assets/h-fandoms.svg?v=1" alt="Mundos de los que soy fan" width="100%" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/✦_Star_Wars-0d0207?style=for-the-badge" alt="Star Wars" />
@@ -100,7 +89,7 @@
   <img src="https://img.shields.io/badge/🌃_Cyberpunk-0d0207?style=for-the-badge" alt="Cyberpunk" />
 </p>
 
-## 🐍 Mis contribuciones
+<img src="./assets/h-contrib.svg?v=1" alt="Mis contribuciones" width="100%" />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/canoojson/canoojson/output/snake.svg" alt="Serpiente comiéndose mi gráfico de contribuciones" width="100%" />
