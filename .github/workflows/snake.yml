@@ -1,0 +1,30 @@
+# Genera la serpiente que se come el gráfico de contribuciones (rama "output").
+name: Serpiente de contribuciones
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#ff2a4d&color_dots=#1a0a12,#4a0d1c,#8a1530,#c81e40,#ff2a4d&color_background=#0d0207
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Actualizar serpiente"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

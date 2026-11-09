@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Sergio Cano · canoojson">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05020a"/><stop offset=".55" stop-color="#1c0510"/><stop offset="1" stop-color="#3a0716"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd27a"/><stop offset=".45" stop-color="#ff6b3d"/><stop offset="1" stop-color="#ff1744"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a030b"/><stop offset="1" stop-color="#05020a"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2a4d" stop-opacity="0"/><stop offset=".25" stop-color="#ff2a4d" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="sunmask">
+      <rect width="1200" height="340" fill="white"/>
+      <rect x="0" y="130" width="1200" height="3.0" fill="black"/>
+      <rect x="0" y="140.2" width="1200" height="5.2" fill="black"/>
+      <rect x="0" y="151.27999999999997" width="1200" height="7.4" fill="black"/>
+      <rect x="0" y="163.23999999999998" width="1200" height="9.6" fill="black"/>
+      <rect x="0" y="176.07999999999998" width="1200" height="11.8" fill="black"/>
+      <rect x="0" y="189.79999999999998" width="1200" height="14.0" fill="black"/>
+      <rect x="0" y="204.39999999999998" width="1200" height="16.2" fill="black"/>
+    </mask>
+    <mask id="floormask"><rect y="205" width="1200" height="135" fill="url(#fade)"/></mask>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff2a4d" stop-opacity=".45"/><stop offset="1" stop-color="#ff2a4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .name { font: 900 76px 'Orbitron', 'Arial Black', 'Segoe UI', sans-serif; letter-spacing: 10px; }
+    .sub { font: 600 20px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 6px; fill: #ffc2cb; }
+    .flicker { animation: flicker 6s infinite; }
+    @keyframes flicker { 0%, 18%, 22%, 60%, 64%, 100% { opacity: 1; } 20%, 62% { opacity: .55; } }
+    .twinkle { animation: tw 3s ease-in-out infinite; }
+    @keyframes tw { 50% { opacity: .2; } }
+  </style>
+
+  <rect width="1200" height="340" fill="url(#sky)"/>
+  <g fill="#ffd6dc">
+    <circle class="twinkle" cx="140" cy="40" r="1.4"/><circle cx="260" cy="90" r="1"/><circle class="twinkle" cx="380" cy="30" r="1.2" style="animation-delay:1s"/>
+    <circle cx="820" cy="50" r="1.1"/><circle class="twinkle" cx="960" cy="95" r="1.4" style="animation-delay:.5s"/><circle cx="1080" cy="35" r="1"/>
+    <circle cx="60" cy="120" r="1"/><circle class="twinkle" cx="1150" cy="130" r="1.2" style="animation-delay:2s"/><circle cx="700" cy="25" r="1"/>
+  </g>
+
+  <circle cx="600.0" cy="195" r="170" fill="url(#halo)"/>
+  <circle cx="600.0" cy="195" r="105" fill="url(#sun)" mask="url(#sunmask)" filter="url(#softglow)"/>
+  <polygon points="0,205 90,170 180,188 270,150 360,182 430,165 500,205 700,205 770,160 850,185 930,140 1020,178 1110,158 1200,176 1200,205" fill="#0d0207" stroke="#ff2a4d" stroke-width="1.5" stroke-opacity=".7"/>
+
+  <rect y="205" width="1200" height="135" fill="url(#floor)"/>
+  <g mask="url(#floormask)" filter="url(#softglow)">
+    <line x1="0" x2="1200" y1="216.2" y2="216.2" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="217.2" y2="217.2" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.27s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.27s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="218.3" y2="218.3" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.53s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.53s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="219.6" y2="219.6" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.80s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-0.80s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="221.2" y2="221.2" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.07s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.07s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="223.2" y2="223.2" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.33s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.33s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="225.8" y2="225.8" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.60s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.60s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="229.2" y2="229.2" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.87s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-1.87s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="233.9" y2="233.9" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.13s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.13s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="241.0" y2="241.0" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.40s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.40s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="252.6" y2="252.6" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.67s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.67s" repeatCount="indefinite"/></line>
+    <line x1="0" x2="1200" y1="275.4" y2="275.4" stroke="#ff2a4d" stroke-width="1.6"><animate attributeName="y1" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.93s" repeatCount="indefinite"/><animate attributeName="y2" values="216.2;216.7;217.2;217.7;218.3;218.9;219.6;220.4;221.2;222.1;223.2;224.4;225.8;227.3;229.2;231.3;233.9;237.1;241.0;246.0;252.6;261.8;275.4;297.6;340.0" dur="3.2s" begin="-2.93s" repeatCount="indefinite"/></line>
+    <line x1="404.0" y1="205" x2="-940.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="418.0" y1="205" x2="-830.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="432.0" y1="205" x2="-720.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="446.0" y1="205" x2="-610.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="460.0" y1="205" x2="-500.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="474.0" y1="205" x2="-390.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="488.0" y1="205" x2="-280.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="502.0" y1="205" x2="-170.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="516.0" y1="205" x2="-60.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="530.0" y1="205" x2="50.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="544.0" y1="205" x2="160.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="558.0" y1="205" x2="270.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="572.0" y1="205" x2="380.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="586.0" y1="205" x2="490.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="600.0" y1="205" x2="600.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="614.0" y1="205" x2="710.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="628.0" y1="205" x2="820.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="642.0" y1="205" x2="930.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="656.0" y1="205" x2="1040.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="670.0" y1="205" x2="1150.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="684.0" y1="205" x2="1260.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="698.0" y1="205" x2="1370.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="712.0" y1="205" x2="1480.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="726.0" y1="205" x2="1590.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="740.0" y1="205" x2="1700.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="754.0" y1="205" x2="1810.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="768.0" y1="205" x2="1920.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="782.0" y1="205" x2="2030.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+    <line x1="796.0" y1="205" x2="2140.0" y2="340" stroke="#ff2a4d" stroke-width="1.4"/>
+  </g>
+  <line x1="0" x2="1200" y1="205" y2="205" stroke="#ff6b7f" stroke-width="2" filter="url(#softglow)"/>
+
+  <g class="flicker" filter="url(#glow)">
+    <text class="name" x="600.0" y="118" text-anchor="middle" fill="none" stroke="#ff2a4d" stroke-width="2.5">SERGIO CANO</text>
+  </g>
+  <text class="name" x="600.0" y="118" text-anchor="middle" fill="#fff1f3" fill-opacity=".92">SERGIO CANO</text>
+  <text class="sub" x="600.0" y="300" text-anchor="middle" filter="url(#softglow)">DEV · VALENCIA · ARCH LINUX</text>
+</svg>
