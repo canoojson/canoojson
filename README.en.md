@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/banner.en.svg" alt="canoojson" width="100%" />
+  <img src="./assets/banner.en.svg?v=3" alt="canoojson" width="100%" />
 </p>
 
 <p align="center">
