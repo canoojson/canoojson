@@ -7,12 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://canoojson.dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=900&color=FF2A4D&center=true&vCenter=true&width=640&lines=Desarrollador+en+AHORA+%E2%80%94+software+ERP;Kotlin+%C2%B7+Java+%C2%B7+C%23+%C2%B7+Python+%C2%B7+TypeScript;Arch+Linux+%2B+Hyprland%2C+todo+en+rojo+ne%C3%B3n;Que+la+Fuerza+te+acompa%C3%B1e+%E2%9C%A6" alt="Frases que se escriben solas" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://canoojson.dev"><img src="https://img.shields.io/badge/Portfolio-canoojson.dev-ff2a4d?style=for-the-badge&labelColor=0d0207" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/sergio-cano-pomer-a51440259/"><img src="https://img.shields.io/badge/LinkedIn-ff2a4d?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0207" alt="LinkedIn" /></a>
   <a href="https://www.instagram.com/canoojson/"><img src="https://img.shields.io/badge/Instagram-ff2a4d?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d0207" alt="Instagram" /></a>
@@ -22,12 +16,11 @@
 
 ## 🌆 Sobre mí
 
-- 💼 Trabajo en **[AHORA](https://www.ahora.es/)**, desarrollando software ERP y de gestión empresarial.
+- 💼 Trabajo como desarrollador en **[AHORA](https://www.ahora.es/)**.
 - 🎓 Titulado en **Desarrollo de Aplicaciones Multiplataforma** (DAM).
 - 📱 Me gusta el desarrollo **Android** con Kotlin + Jetpack Compose, y el backend con **Spring Boot**.
-- 🐧 Vivo en **Arch Linux + Hyprland**, y me programo mis propias herramientas: un asistente de voz, el popup de los AirPods, widgets para la barra…
+- 🛠️ En mi tiempo libre me hago herramientas para el día a día, como un asistente de voz o la integración de los AirPods en Linux.
 - 🏕️ Hago de desarrollador web para mi grupo scout, **Impeesa 243** de Burjassot.
-- 🔴 Si algo se puede poner en rojo neón, lo pongo: teclado, ventiladores, Spotify, la pantalla de la refrigeración…
 
 ## ⚒️ Con qué trabajo
 

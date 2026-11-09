@@ -45,7 +45,8 @@ def mountains():
                 (700, HZ), (770, 160), (850, 185), (930, 140), (1020, 178), (1110, 158), (1200, 176), (1200, HZ)]
     return " ".join(f"{x},{y}" for x, y in pts_back)
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Sergio Cano · canoojson">
+def build(SUB):
+  return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Sergio Cano · canoojson">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#05020a"/><stop offset=".55" stop-color="#1c0510"/><stop offset="1" stop-color="#3a0716"/>
@@ -104,9 +105,10 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     <text class="name" x="{CX}" y="118" text-anchor="middle" fill="none" stroke="#ff2a4d" stroke-width="2.5">SERGIO CANO</text>
   </g>
   <text class="name" x="{CX}" y="118" text-anchor="middle" fill="#fff1f3" fill-opacity=".92">SERGIO CANO</text>
-  <text class="sub" x="{CX}" y="300" text-anchor="middle" filter="url(#softglow)">DEV · VALENCIA · ARCH LINUX</text>
+  <text class="sub" x="{CX}" y="300" text-anchor="middle" filter="url(#softglow)">{SUB}</text>
 </svg>
 '''
 
-open("assets/banner.svg", "w").write(svg)
-print("assets/banner.svg")
+for path, sub in (("assets/banner.svg", "DESARROLLADOR · VALENCIA"), ("assets/banner.en.svg", "DEVELOPER · VALENCIA")):
+    open(path, "w").write(build(sub))
+    print(path)

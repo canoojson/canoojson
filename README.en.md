@@ -3,13 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Sergio Cano" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://canoojson.dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=900&color=FF2A4D&center=true&vCenter=true&width=640&lines=Developer+at+AHORA+%E2%80%94+ERP+software;Kotlin+%C2%B7+Java+%C2%B7+C%23+%C2%B7+Python+%C2%B7+TypeScript;Arch+Linux+%2B+Hyprland%2C+all+in+neon+red;May+the+Force+be+with+you+%E2%9C%A6" alt="Typing intro" />
-  </a>
+  <img src="./assets/banner.en.svg" alt="Sergio Cano" width="100%" />
 </p>
 
 <p align="center">
@@ -22,12 +16,11 @@
 
 ## 🌆 About me
 
-- 💼 Working at **[AHORA](https://www.ahora.es/)**, building ERP and business management software.
+- 💼 Developer at **[AHORA](https://www.ahora.es/)**.
 - 🎓 Graduated in **Multiplatform Application Development** (DAM).
 - 📱 I enjoy **Android** development with Kotlin + Jetpack Compose, and backend work with **Spring Boot**.
-- 🐧 I live on **Arch Linux + Hyprland** and build my own tools: a voice assistant, an AirPods popup, status bar widgets…
+- 🛠️ In my free time I build tools for everyday use, like a voice assistant or AirPods support on Linux.
 - 🏕️ Web developer for my Scout group, **Impeesa 243** (Burjassot).
-- 🔴 If it can glow neon red, it does: keyboard, fans, Spotify, even the AIO cooler screen…
 
 ## ⚒️ Tech stack
 
