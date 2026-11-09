@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Sergio Cano" width="100%" />
+  <img src="./assets/banner.svg" alt="canoojson" width="100%" />
 </p>
 
 <p align="center">

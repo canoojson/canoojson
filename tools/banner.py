@@ -46,7 +46,7 @@ def mountains():
     return " ".join(f"{x},{y}" for x, y in pts_back)
 
 def build(SUB):
-  return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Sergio Cano · canoojson">
+  return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="canoojson">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#05020a"/><stop offset=".55" stop-color="#1c0510"/><stop offset="1" stop-color="#3a0716"/>
@@ -102,9 +102,9 @@ def build(SUB):
   <line x1="0" x2="{W}" y1="{HZ}" y2="{HZ}" stroke="#ff6b7f" stroke-width="2" filter="url(#softglow)"/>
 
   <g class="flicker" filter="url(#glow)">
-    <text class="name" x="{CX}" y="118" text-anchor="middle" fill="none" stroke="#ff2a4d" stroke-width="2.5">SERGIO CANO</text>
+    <text class="name" x="{CX}" y="118" text-anchor="middle" fill="none" stroke="#ff2a4d" stroke-width="2.5">CANOOJSON</text>
   </g>
-  <text class="name" x="{CX}" y="118" text-anchor="middle" fill="#fff1f3" fill-opacity=".92">SERGIO CANO</text>
+  <text class="name" x="{CX}" y="118" text-anchor="middle" fill="#fff1f3" fill-opacity=".92">CANOOJSON</text>
   <text class="sub" x="{CX}" y="300" text-anchor="middle" filter="url(#softglow)">{SUB}</text>
 </svg>
 '''

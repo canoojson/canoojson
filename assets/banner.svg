@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Sergio Cano · canoojson">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="canoojson">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#05020a"/><stop offset=".55" stop-color="#1c0510"/><stop offset="1" stop-color="#3a0716"/>
@@ -100,8 +100,8 @@
   <line x1="0" x2="1200" y1="205" y2="205" stroke="#ff6b7f" stroke-width="2" filter="url(#softglow)"/>
 
   <g class="flicker" filter="url(#glow)">
-    <text class="name" x="600.0" y="118" text-anchor="middle" fill="none" stroke="#ff2a4d" stroke-width="2.5">SERGIO CANO</text>
+    <text class="name" x="600.0" y="118" text-anchor="middle" fill="none" stroke="#ff2a4d" stroke-width="2.5">CANOOJSON</text>
   </g>
-  <text class="name" x="600.0" y="118" text-anchor="middle" fill="#fff1f3" fill-opacity=".92">SERGIO CANO</text>
+  <text class="name" x="600.0" y="118" text-anchor="middle" fill="#fff1f3" fill-opacity=".92">CANOOJSON</text>
   <text class="sub" x="600.0" y="300" text-anchor="middle" filter="url(#softglow)">DESARROLLADOR · VALENCIA</text>
 </svg>
