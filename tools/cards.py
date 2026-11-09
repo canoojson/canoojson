@@ -90,12 +90,15 @@ HEADERS = {
 
 
 def header(title):
+    # barra oscura propia: con fondo transparente el título no se lee en el tema claro de GitHub
     h = 64
-    body = f"""<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{RED}"/><stop offset=".6" stop-color="{RED}" stop-opacity=".25"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></linearGradient>"""
-    content = f"""<rect x="4" y="16" width="5" height="30" rx="2" fill="url(#neon)" filter="url(#glow)"/>
-  <text class="o" x="26" y="42" font-size="25" letter-spacing="4" fill="{TEXT}" filter="url(#glow)">{escape(title)}</text>
-  <rect x="4" y="57" width="{W - 4}" height="2" fill="url(#line)"/>"""
-    return svg(W, h, content, title, body)
+    line = f"""<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{RED}"/><stop offset=".7" stop-color="{RED}" stop-opacity=".3"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></linearGradient>"""
+    content = f"""<rect x="1" y="4" width="{W - 2}" height="{h - 8}" rx="12" fill="url(#bg)"/>
+  <rect x="1" y="4" width="{W - 2}" height="{h - 8}" rx="12" fill="url(#grid)"/>
+  <rect x="1" y="{h - 6}" width="{W - 2}" height="2" fill="url(#line)" filter="url(#glow)"/>
+  <rect x="18" y="19" width="5" height="26" rx="2" fill="url(#neon)" filter="url(#glow)"/>
+  <text class="o" x="38" y="42" font-size="23" letter-spacing="4" fill="{TEXT}" filter="url(#glow)">{escape(title)}</text>"""
+    return svg(W, h, content, title, line)
 
 
 # ---------- sobre mí ----------
