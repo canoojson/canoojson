@@ -7,6 +7,12 @@
 </p>
 
 <p align="center">
+  <a href="https://canoojson.dev">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=900&color=FF2A4D&center=true&vCenter=true&width=640&lines=Hola%2C+soy+Sergio;Desarrollador+en+Valencia;Kotlin+%C2%B7+Java+%C2%B7+C%23+%C2%B7+Python;Siempre+con+m%C3%BAsica+puesta" alt="Hola, soy Sergio" />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://canoojson.dev"><img src="https://img.shields.io/badge/Portfolio-canoojson.dev-ff2a4d?style=for-the-badge&labelColor=0d0207" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/sergio-cano-pomer-a51440259/"><img src="https://img.shields.io/badge/LinkedIn-ff2a4d?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0207" alt="LinkedIn" /></a>
   <a href="https://www.instagram.com/canoojson/"><img src="https://img.shields.io/badge/Instagram-ff2a4d?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d0207" alt="Instagram" /></a>
